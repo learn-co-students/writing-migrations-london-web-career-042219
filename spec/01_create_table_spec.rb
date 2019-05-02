@@ -12,4 +12,5 @@ describe 'student' do
     student = Student.create(name: "Steven")
     expect(Student.where(name: "Steven").first).to eq(student)
   end
+  
 end
